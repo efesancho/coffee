@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.header-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.ul-site {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.a-site {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #83888f;
+    text-decoration: none;
+}
+
+.log {}
+
+.a-site:hover {
+    border-bottom: 2px solid black;
+}
+.section-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-conteiner {
+    background-image: url("../imgs/00.svg");
+    background-position: unset;
+    background-repeat: no-repeat;
+
+    width: 1280px;
+    height: 600px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+
+
+    width: 493px;
+    height: 367px;
+    /* padding: 20px 20px; */
+    margin: 10px 90px;
+}
+
+.h1-site {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    color: #fefcf7;
+}
+
+.p-site {
+    font-family: var(--second-family);
+    font-weight: 400;
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 162%;
+    color: #fefcf7;
+    opacity: 0.8;
+}
+
+.site-a {
+
+    font-weight: 900;
+    font-size: 18px;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fefcf7;
+    text-decoration: none;
+    list-style: none;
+    line-height: 150px;
+    background: #0e8784;
+    border-radius: 6px;
+
+}
+
+.site-a:hover {
+    background-color: #60C6C3;
+}
+
+.site-a:active {
+    background: #e2dedb;
+}
+
+.log {
+    padding: 0 52px;
+}
+.end-conteiner {
+
+    padding: 100px 90px ;
+    
+    background-color: #2C343E;
+    width: 1280px;
+height: 753px;
+}
+
+.srcle-h3 {
+    font-size: 24px;
+    margin-bottom: 80px;
+    color: #fefcf7;
+
+    /* width: 18px;
+height: 18px;
+border-radius: 100%;
+fill: #fefcf7;
+stroke-width: 2px;
+stroke: #0e8784;
+background-color: red; */
+}
+
+.hr {}
+
+.ota {
+    display: flex;
+
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.strim {
+    width: 31px;
+    height: 31px;
+    border: 5px solid darkcyan;
+    border-radius: 50%;
+}
+
+.hr {
+    width: 380px;
+    border-top: 2px solid blanchedalmond;
+
+}
+
+.box-number {
+    display: flex;
+    column-gap: 150px;
+}
+
+.box {
+    width: 265px;
+    height: 355px;
+}
+
+.box-text {
+
+
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 100%;
+    color: #fdd6ba;
+}
+
+.box-title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    width: 195px;
+    margin: 38px 0 42px 0;
+
+    color: #fefcf7;
+}
+
+.p-box {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+}
+.combat{
+   
+}
+.kombo-conteiner{
+   
+    padding-top: 200px;
+}
+.kombo-h3{
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 40px;
+line-height: 120%;
+color: #83888f;
+padding: 0 90px;
+}
+.kombo-ul{
+    display: flex;
+  
+    column-gap: 20px;
+    padding: 80px ;
+    list-style: none;
+}
+.kombo-li{
+    border-radius: 8px;
+width: 228px;
+height: 250px;
+background: #f4f1eb;
+}
+.kombo-ul :last-child(1){
+    border: 1px solid red;
+    /* background-color: #0e8784; */
+}
+.kombo{
+ padding: 20px 20px ;
+    width: 172px;
+height: 134px;
+}
+.kombots{
+background-color: #0e8784;
+color: #f4f1eb;
+}
+.last{
+    color: #f4f1eb;
+}
+.first{
+    color: #e2dedb;
+}
+.kombo-h4{
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 24px;
+line-height: 133%;
+color: #333d4b;
+}
+.kombo-p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+padding-top: 41px;
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: #333d4b;
+}
+/* .endless-conteiner{
+    width: 730px;
+height: 208px;
+background-color:#2C343E;
+}
+.h4-end{
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 24px;
+line-height: 167%;
+color: #fff;
+} */
